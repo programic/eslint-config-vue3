@@ -1,0 +1,13 @@
+{
+  "extends": ["plugin:jest/all"],
+  "plugins": ["jest"],
+  "env": {
+    "jest": true,
+    "jest/globals": true
+  },
+  "rules": {
+    "jest/prefer-expect-assertions": ["error", {
+      "onlyFunctionsWithAsyncKeyword": true
+    }]
+  }
+}

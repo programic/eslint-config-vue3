@@ -1,0 +1,50 @@
+{
+  "name": "@programic/eslint-config-vue3",
+  "version": "1.0.0",
+  "description": "Programic's Vue 3 ESLint config, following our styleguide.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "test": "jest ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programic/eslint-config-vue3"
+  },
+  "keywords": [
+    "style guide",
+    "programic",
+    "lint",
+    "vue",
+    "vue3",
+    "eslint",
+    "es2018",
+    "es2017",
+    "es2016",
+    "es2015",
+    "es6"
+  ],
+  "author": "Thimon Wentink (https://github.com/thimonwentink)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/programic/eslint-config-vue3/issues"
+  },
+  "homepage": "https://programic.com",
+  "engines": {
+    "node": ">= 6"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "dependencies": {
+    "@programic/eslint-config-base": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-vue": "^7.14.0",
+    "jest": "^27.0.6"
+  }
+}
