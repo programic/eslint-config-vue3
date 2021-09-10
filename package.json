@@ -38,7 +38,7 @@
     "eslint-plugin-import": "^2.23.4"
   },
   "dependencies": {
-    "@programic/eslint-config-base": "^2.0.0"
+    "@programic/eslint-config-base": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
