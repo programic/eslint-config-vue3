@@ -1,6 +1,6 @@
 {
   "name": "@programic/eslint-config-vue3",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Programic's Vue 3 ESLint config, following our styleguide.",
   "main": "index.js",
   "scripts": {
