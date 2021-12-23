@@ -17,6 +17,15 @@ module.exports = {
   }],
 
   rules: {
+    'unicorn/prevent-abbreviations': ['error', {
+      checkShorthandProperties: true,
+      checkProperties: true,
+      ignore: [
+        /^src$/i,
+        // Vue specific ignores
+        /attrs|params|prop|props|ref|refs/i,
+      ],
+    }],
     'vue/no-multiple-template-root': 'off',
     'vue/script-indent': ['error', 2, {
       baseIndent: 1,
