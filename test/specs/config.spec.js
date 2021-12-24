@@ -1,9 +1,9 @@
 describe('valid config', () => {
   // eslint-disable-next-line global-require
   const config = require('../..');
-  const expectIsArrayOfLength = (arr, length) => {
-    expect(Array.isArray(arr)).toBe(true);
-    expect(arr).toHaveLength(length);
+  const expectIsArrayOfLength = (givenArray, length) => {
+    expect(Array.isArray(givenArray)).toBe(true);
+    expect(givenArray).toHaveLength(length);
   };
 
   it('is an object', () => {
