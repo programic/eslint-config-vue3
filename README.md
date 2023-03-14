@@ -1,3 +1,5 @@
+> :warning: This package is deprecated. Use `@programic/eslint-plugin` instead.
+
 # @programic/eslint-config-vue3
 
 [![npm version](https://badge.fury.io/js/@programic%2Feslint-config-vue3.svg)](https://badge.fury.io/js/@programic%2Feslint-config-vue3)
